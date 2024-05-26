@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Express.js Backend to handle the functionality of a hot wire game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon --inspect server.js"
+  },
+  "author": "Calvin Altenhofer",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "gpio": "^0.2.10",
+    "nodemon": "^3.1.0",
+    "onoff": "^6.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCreate99/Hot-Wire.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CCreate99/Hot-Wire/issues"
+  },
+  "homepage": "https://github.com/CCreate99/Hot-Wire#readme"
+}
